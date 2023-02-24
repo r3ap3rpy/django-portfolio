@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon" />
+
+        <link rel="stylesheet" href="{% static 'styles/main.css' %}" />
+        <title>r3ap3rpy</title>
+    </head>
+    <body>
+        <section class="cyberpunk">
+            
+          
+    {% block content %}
+    {% endblock content %}
+</section>
+    {% include 'footer.html' %}
+</body>
+<script src="{% static 'js/main.js' %}"></script>
+
+</html>

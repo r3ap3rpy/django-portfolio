@@ -1,0 +1,46 @@
+{% extends 'main.html'%}
+{% block content %}
+{% load static %}
+<h1 class="cyberpunk">Welcome</h1>
+
+<img class="cyberpunk" src="{% static 'images/me.jpg' %}" alt="Error">
+
+<p class="cyberpunk inverse">I'm the firstborn son of a father called Ernő, and a mother called Ildikó. 
+    I was born on a cold winter day dated as the 10th of January 1991. 
+    I have spent my childhood like any other millenial of the 90s. 
+    Playing games on my computer and some football with my friends on the streets of <a href="https://hu.wikipedia.org/wiki/Hossz%C3%BAp%C3%A1lyi" target="blank">Hosszúpályi</a>, my hometown. 
+    After elementary school I went to middle school in Debrecen. Where I feel in love with IT and programming. 
+    After that I attended the local University where I learnt a bit more about IT, but started working while I finished my studies. 
+    I have developed a passion for scripting and programming.</p>
+
+<p class="cyberpunk inverse">
+    I run a YouTube channel called <a href="https://www.youtube.com/@r3ap3rpy" target="blank">r3ap3rpy</a>, it's a documentation of my journey.
+    I have a <a href="https://github.com/r3ap3rpy" target="blank">GitHub</a> repository aswell which serves as a collection of my creations. You may want to check out my <a href="https://r3ap3rpy.github.io/" target="blank">GitHub.io</a> page for the latest updates.
+    I have several courses on <a href="https://www.udemy.com/courses/search/?src=ukw&q=Szab%C3%B3+D%C3%A1niel+Ern%C5%91" target="blank">Udemy</a>, mostly about programming languages, but your will also find courses on Monitoring and Automation frameworks too.
+    You will also find me on <a href="https://www.skillshare.com/en/user/r3ap3rpy" target="blank">SkillShare</a>.
+    I am the author of several guides on <a href="https://www.pluralsight.com/guides" target="blank">PluralSight</a>, you find them under my name!
+    Currently I am most proud of the join project I had with <a href="https://codered.eccouncil.org/" target="blank">ECCouncil</a>, and I had the chance to teach <a href="https://python.org/" target="blank">&#128013;</a> to military personel. 
+</p>
+<div class="boxtree">
+    <a class="cyberpunk" href="{% static 'cv/cv_english.docx' %}">Download CV</a>
+</div>
+<p class="cyberpunk inverse">
+    Don't hesitate to contact me if you are in need of an experienced <a href="{% url 'teaching' %}">&#128013;Python trainer!</a>
+    I also have experience teaching Grafana, Zabbix, Ichinga monitoring and observability tools. If you need a custom solution for your digital problems I can be of help.
+</p>
+<h1 class="cyberpunk">Work Experience</h1>  
+<ul class="cyberpunk">
+    <li><h2>Principal DevOps Engineer - <a href="https://www.itron.com/" target="blank">Itronlabs</a> (Current since, 2019)</h2></li>
+    <li><h2>Python Trainer - <a href="https://masterfield.hu/hu" target="blank">Masterfield</a> (Current since, 2022)</h2></li>
+    
+    <li><h3 class="glitched">Senior DevOps Engineer - <a href="https://www.cognizant.com/us/en" target="blank">Cognizant</a> (few weeks in 2019)</h3></li>
+    <li><h3 class="glitched">DevOps Engineer - <a href="https://www.lego.com/hu-hu" target="blank">LEGO</a> (2018-2019)</h3></li>
+    <li><h3 class="glitched">Web Systems Engineer - <a href="https://www.ni.com/hu-hu.html" target="blank">National Instruments</a> (2017-2018)</h3></li>
+    <li><h3 class="glitched">Experienced Network Administrator - <a href="https://www.deutschetelekomitsolutions.hu/" target="blank">IT Services Hungary</a> (2015-2017)</h3></li>
+    <li><h3 class="glitched">System Administrator - <a href="https://www.deutschetelekomitsolutions.hu/" target="blank">IT Services Hungary</a> (2013-2015)</h3></li>
+    <li><h3 class="glitched">Trainee - <a href="https://www.deutschetelekomitsolutions.hu/" target="blank">IT Services Hungary</a> (2012-2013)</h3></li>
+  </ol>
+    
+    
+  
+{% endblock content %}
